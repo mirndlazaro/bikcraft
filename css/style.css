@@ -22,8 +22,28 @@ p {
 }
 
 .btn:hover {
-    border: 3px solid #fff;
+    border: #fff;
     color: #fff;
+}
+
+.subtitulo {
+    margin-top: 96px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px auto;
 }
 
 /* Header */
@@ -97,7 +117,6 @@ p {
     height: 3px;
     background: #FFF;
     margin: 10px auto 10px auto;
-
 }
 
 .quote-externo cite {
@@ -105,4 +124,18 @@ p {
     font-weight: bold;
     font-size: 14px;
     letter-spacing: .1em;
+}
+
+/*Produtos*/
+
+.produtos {
+    padding: 60px 0;
+}
+
+.produtos_lista li{
+    background: #000;
+}
+
+.produtos_lista h3, p{
+    background: #fec63e;
 }
