@@ -51,6 +51,12 @@ p {
     margin: 8px auto;
 }
 
+.call-to-action {
+    text-align: center;
+    padding-top: 40px;
+    clear: both;
+}
+
 /* Header */
 
 .header {
@@ -59,6 +65,7 @@ p {
     width: 100%;
     background: #fec63e;
     padding: 15px 0;
+    z-index: 10;
 }
 
 .header_menu {
@@ -170,12 +177,31 @@ p {
     padding: 20px;
 }
 
-.call-to-action {
-    text-align: center;
-    padding-top: 40px;
-    clear: both;
-}
-
 .call-to-action p{
     margin-bottom: 20px;
+}
+
+/*Portfólio*/
+
+.portfolio {
+    width: 100%;
+    padding: 40px 0;
+    background: #000;
+}
+
+.portfolio .subtitulo {
+    color: #fec63e;
+}
+
+.portfolio .subtitulo:after {
+    background: #fec63e;
+}
+
+.portfolio-lista li:last-child {
+    margin-top: 20px;
+}
+
+.portfolio .call-to-action p {
+    color: #fff;
+    padding-bottom: 5px;
 }
