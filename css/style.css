@@ -79,6 +79,10 @@ img {
     clear: both;
 }
 
+.header_menu ul li a.menu-ativo {
+    color: #fff;
+}
+
 /* Header */
 
 .header {
