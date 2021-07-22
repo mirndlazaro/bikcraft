@@ -260,6 +260,7 @@ img {
 
 .qualidade {
     padding: 40px 0;
+    overflow: auto;
 }
 
 .qualidade:after {
