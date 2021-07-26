@@ -228,7 +228,11 @@ img {
 
 .produtos-icone {
     background: #000;
-    padding: 20px 50px;
+    padding: 20px;
+}
+
+.produtos-icone img {
+    margin: 0 auto;
 }
 
 .call-to-action p{
@@ -375,6 +379,7 @@ img {
 }
 
 .footer-redes-sociais ul li a:hover {
+    color: #fff;
     border-color: #fff;
 }
 
