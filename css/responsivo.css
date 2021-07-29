@@ -1,0 +1,59 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+
+}
+
+@media only screen and (max-width: 787px) {
+
+    .btn {
+        padding-bottom: 15px;
+    }
+
+    /* Header */
+
+    .header {
+        position: relative;    
+    }
+
+    .header img {
+        margin: 0 auto 20px auto;
+    }
+
+    .header_menu {
+        text-align: center;
+    }
+
+    .header_menu ul li {
+        margin: 5px;
+    }
+
+    .header_menu ul li a {
+        border: 4px solid #000;
+        width: 130px;
+        display: block;
+        float: left;
+    }
+
+    .header_menu ul li a:hover {
+        border-color: #fff;
+        transition: .1s;
+    }
+
+    .header_menu ul li a.menu-ativo {
+        border-color: #fff;
+    }
+
+    /* Header */
+
+    .introducao {
+        margin-top: 0px;
+        padding-top: 50px;
+        background: url("../img/bg-mobile.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+
+    .produtos-lista li:nth-child(2) {
+        margin: 20px auto;
+    }
+}
