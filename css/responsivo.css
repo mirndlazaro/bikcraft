@@ -101,4 +101,23 @@
         font-size: 14px;
         line-height: 25px;
     }
+
+    /*Contatos */
+
+    .contat-form {
+        padding-right: 0px;
+    }
+
+    .contato-dados {
+        text-align: center;
+        margin-top: 40px
+    }
+
+    .btn {
+        margin-left: 75px;
+    }
+
+    .contato-dados ul {
+        padding-right: 0px;
+    }
 }
