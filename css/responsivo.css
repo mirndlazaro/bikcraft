@@ -1,5 +1,25 @@
 @media only screen and (min-width: 788px) and (max-width: 979px) {
 
+    /* Qualidade Home */
+
+    .qualidade:after {
+        right: 66px;
+    }
+
+    .qualidade-lista li {
+        padding: 0 20px;
+    }
+
+    /* Footer */
+
+    .footer-redes-sociais ul li a {
+        padding: 6px;
+    }
+
+    .footer-redes-sociais ul li a img {
+        width: 26px;
+        height: 26px;
+    }
 
 }
 
@@ -43,7 +63,7 @@
         border-color: #fff;
     }
 
-    /* Header */
+    /* Intodução */
 
     .introducao {
         margin-top: 0px;
@@ -52,8 +72,33 @@
         background-size: cover;
     }
 
+    /* Introdução interna*/
+
+    .introducao-interna {
+        margin-top: 0px;
+    }
+
 
     .produtos-lista li:nth-child(2) {
         margin: 20px auto;
+    }
+
+    /* Qualidade Home */
+
+    .qualidade:after {
+        display: none;
+    }
+
+    /* Sobre */
+
+    .missao-sobre p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 0px;
+    }
+
+    .missao-sobre ul li {
+        font-size: 14px;
+        line-height: 25px;
     }
 }
