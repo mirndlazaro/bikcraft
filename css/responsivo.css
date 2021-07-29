@@ -10,6 +10,26 @@
         padding: 0 20px;
     }
 
+    /* Produtos */
+
+    .produto-item h2{
+        top: -150px;
+    }
+    .produto-icone {
+        padding: 41px 0;
+    }
+
+    .produto-info p {
+        font-size: 14px;
+        line-height: 20px;
+        height: 122px;
+        padding: 20px 30px;
+    }
+
+    .produto-info ul li {
+        width: 181px;
+    }
+
     /* Footer */
 
     .footer-redes-sociais ul li a {
@@ -27,6 +47,14 @@
 
     .btn {
         padding-bottom: 15px;
+    }
+    
+    .btn-responsivo {
+        margin-left: 75px;
+    }
+
+    .form-responsivo {
+        padding-right: 0px;
     }
 
     /* Header */
@@ -78,9 +106,43 @@
         margin-top: 0px;
     }
 
+    /* Produtos */
+
+    .produto-item h2{
+        top: -100px;
+    }
+    
+    .produto-icone {
+        padding: 41px 0;
+        margin-bottom: 20px;
+    }
+
+    .produto-info p {
+        font-size: 14px;
+        line-height: 20px;
+        height: auto;
+        padding: 20px 30px;
+    }
+
+    .produto-info ul li {
+        width: 149px;
+        height: 49px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 14px;
+    }
 
     .produtos-lista li:nth-child(2) {
         margin: 20px auto;
+    }
+
+    .orcamento-dados {
+        text-align: center;
+        margin-top: 40px
+    }
+
+    .orcamento-dados ul {
+        padding-right: 0px;
     }
 
     /* Qualidade Home */
@@ -104,17 +166,9 @@
 
     /*Contatos */
 
-    .contat-form {
-        padding-right: 0px;
-    }
-
     .contato-dados {
         text-align: center;
         margin-top: 40px
-    }
-
-    .btn {
-        margin-left: 75px;
     }
 
     .contato-dados ul {
