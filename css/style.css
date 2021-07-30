@@ -394,3 +394,56 @@ img {
     background: #fec63e;
     padding: 20px
 }
+
+/*Javascript*/
+
+/*Simple Slide*/
+
+.js [data-slide] {
+    position: relative;
+}
+
+.js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+    z-index: 1;
+}
+
+.js [data-slide-nav] {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.js [data-slide-nav] button {
+    background-color: rgb(19, 17, 17);
+    border: none;
+    text-indent: -200px;
+    overflow: hidden;
+    padding: .1px 30px;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+
+.js [data-slide-nav] button.active {
+    background-color: #fec63e;
+}
+
+/*Simple Anime*/
+
+.js [data-anime] {
+    opacity: 0;
+}
+
+.anime {
+    opacity: 1;
+    transform: none;
+    transition: transform .8s, opacity .8s;
+}
