@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsivo.css">
 
+		<!--Acessibilidade-->
 		<script>document.documentElement.classList.add("js");</script>
 	</head>
 	<body>
@@ -33,17 +34,17 @@
 		</header>
 
 		<section>
-			<div class='introducao'>
-				<h1>BICICLETAS FEITAS À MÃO</h1>
-				<blockquote class="quote-externo">
+			<div class="introducao">
+				<h1 data-anime="400" class="fadeInDown">BICICLETAS FEITAS À MÃO</h1>
+				<blockquote data-anime="800" class="quote-externo">
 					<p>"Não tenha nada na sua casa que você não ache útil, ou que não acredite que seja bonito"</p>
 					<cite>WILLIAM MORRIS</cite>
 				</blockquote>
-				<a href="produtos.html" class="btn">Orçamento</a>
+				<a href="produtos.html" data-anime="1200" class="btn fadeInDown">Orçamento</a>
 			</div>
 		</section>
 
-		<section class="produtos container">
+		<section data-anime="1600" class="produtos container fadeInDown">
 			<h2 class="subtitulo">Produtos</h2>
 			<ul class="produtos-lista">
 				<li class="grid-1-3">
@@ -160,7 +161,7 @@
 			</div>
 		</footer>
 
-		<script src="./js/plugins/simple-anime.js"></script>
+		<script src="./js/simple-anime.js"></script>
 		<script src="/js/script.js"></script>
 	</body>
 </html>
